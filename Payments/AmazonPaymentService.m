@@ -15,4 +15,8 @@
     NSLog(@"\nYou have paid with Amazon!");
 }
 
+-(BOOL)canProcessPayment
+{
+    
+}
 @end

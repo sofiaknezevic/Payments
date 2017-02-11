@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "PaymentGateway.h"
 
-@interface AmazonPaymentService : NSObject <PaymentGatewayDelegate>
+@interface AmazonPaymentService : NSObject <PaymentDelegate>
 
 -(void)processPaymentAmount:(NSInteger)amount;
+-(BOOL)canProcessPayment;
 
 @end

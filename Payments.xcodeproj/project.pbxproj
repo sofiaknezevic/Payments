@@ -40,7 +40,7 @@
 		5D3F6E141E4E99A200073ACE /* PayPalPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPalPaymentService.m; sourceTree = "<group>"; };
 		5D3F6E161E4E99B400073ACE /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
 		5D3F6E171E4E99B400073ACE /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
-		5D3F6E191E4EA03900073ACE /* PaymentGatewayDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewayDelegate.h; sourceTree = "<group>"; };
+		5D3F6E191E4EA03900073ACE /* PaymentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 				5D3F6E161E4E99B400073ACE /* AmazonPaymentService.h */,
 				5D3F6E171E4E99B400073ACE /* AmazonPaymentService.m */,
 				5D3F6E0D1E4E973200073ACE /* PaymentGateway.h */,
-				5D3F6E191E4EA03900073ACE /* PaymentGatewayDelegate.h */,
 				5D3F6E0E1E4E973200073ACE /* PaymentGateway.m */,
+				5D3F6E191E4EA03900073ACE /* PaymentDelegate.h */,
 				5D3F6E0A1E4E94CF00073ACE /* UserInput.h */,
 				5D3F6E0B1E4E94CF00073ACE /* UserInput.m */,
 			);

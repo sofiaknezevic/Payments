@@ -1,5 +1,5 @@
 //
-//  PaymentGatewayDelegate.h
+//  PaymentDelegate.h
 //  Payments
 //
 //  Created by Sofia Knezevic on 2017-02-10.
@@ -10,9 +10,10 @@
 
 @class PaymentGateway;
 
-@protocol PaymentGatewayDelegate <NSObject>
+@protocol PaymentDelegate <NSObject>
 
 -(void)processPaymentAmount:(NSInteger)amount;
+-(BOOL)canProcessPayment;
 
 @end
 

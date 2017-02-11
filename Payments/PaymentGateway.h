@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PaymentGatewayDelegate.h"
+#import "PaymentDelegate.h"
 
 @interface PaymentGateway : NSObject
 
-@property (nonatomic, weak) id<PaymentGatewayDelegate> paymentDelegate;
+@property (nonatomic, weak) id<PaymentDelegate> paymentDelegate;
 
 -(void)processPaymentAmount:(NSInteger)amount;
 

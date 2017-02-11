@@ -15,4 +15,8 @@
     NSLog(@"\nYou have paid with Stripe!");
 }
 
+-(BOOL)canProcessPayment
+{
+    
+}
 @end
