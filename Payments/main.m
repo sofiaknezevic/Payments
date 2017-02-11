@@ -12,6 +12,7 @@
 #import "StripePaymentService.h"
 #import "PayPalPaymentService.h"
 #import "AmazonPaymentService.h"
+#import "ApplePaymentService.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -20,7 +21,7 @@ int main(int argc, const char * argv[]) {
         
 
 
-        NSLog(@"\nThank you for shopping at Acme.com\nYour total today is $%i\n\nPlease select your payment method:\n1:Paypal\n2:Stripe\n3:Amazon", randomNumber);
+        NSLog(@"\nThank you for shopping at Acme.com\nYour total today is $%i\n\nPlease select your payment method:\n1:Paypal\n2:Stripe\n3:Amazon\n4:ApplePay", randomNumber);
         
         UserInput *inputUser = [[UserInput alloc] init];
         int choice = [[inputUser getString]intValue];
@@ -51,6 +52,14 @@ int main(int argc, const char * argv[]) {
                 [gatewayPayment processPaymentAmount:randomNumber];
                 break;
             }
+                
+            case 4:{
+                ApplePaymentService *appleService = [[ApplePaymentService alloc] init];
+                gatewayPayment.paymentDelegate = appleService;
+                [gatewayPayment processPaymentAmount:randomNumber];
+                break;
+            }
+                
             default:
                 break;
         }
