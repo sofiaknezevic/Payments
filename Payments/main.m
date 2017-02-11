@@ -17,6 +17,8 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         int randomNumber = arc4random_uniform(1001)+100;
+        
+
 
         NSLog(@"\nThank you for shopping at Acme.com\nYour total today is $%i\n\nPlease select your payment method:\n1:Paypal\n2:Stripe\n3:Amazon", randomNumber);
         
