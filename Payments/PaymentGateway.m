@@ -12,7 +12,15 @@
 
 -(void)processPaymentAmount:(NSInteger)amount
 {
-    [self.paymentDelegate processPaymentAmount:amount];
+    if([self.paymentDelegate canProcessPayment]){
+        
+        [self.paymentDelegate processPaymentAmount:amount];
+        
+    }else{
+        
+        NSLog(@"\nSorry, we are unable to process your payment at this time.");
+    }
+    
 }
 
 @end

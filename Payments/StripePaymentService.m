@@ -12,7 +12,7 @@
 
 -(void)processPaymentAmount:(NSInteger)amount
 {
-    NSLog(@"\nYou have paid with Stripe!");
+    NSLog(@"Stripe processed amount $%li", (long)amount);
 }
 
 -(BOOL)canProcessPayment

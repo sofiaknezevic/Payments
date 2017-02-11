@@ -13,6 +13,7 @@
 		5D3F6E121E4E999100073ACE /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F6E111E4E999100073ACE /* StripePaymentService.m */; };
 		5D3F6E151E4E99A200073ACE /* PayPalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F6E141E4E99A200073ACE /* PayPalPaymentService.m */; };
 		5D3F6E181E4E99B400073ACE /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F6E171E4E99B400073ACE /* AmazonPaymentService.m */; };
+		5D3F6E201E4EA71C00073ACE /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3F6E1F1E4EA71C00073ACE /* ApplePaymentService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		5D3F6E161E4E99B400073ACE /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
 		5D3F6E171E4E99B400073ACE /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
 		5D3F6E191E4EA03900073ACE /* PaymentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentDelegate.h; sourceTree = "<group>"; };
+		5D3F6E1E1E4EA71C00073ACE /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		5D3F6E1F1E4EA71C00073ACE /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5D3F6E031E4E920900073ACE /* main.m */,
+				5D3F6E1E1E4EA71C00073ACE /* ApplePaymentService.h */,
+				5D3F6E1F1E4EA71C00073ACE /* ApplePaymentService.m */,
 				5D3F6E101E4E999100073ACE /* StripePaymentService.h */,
 				5D3F6E111E4E999100073ACE /* StripePaymentService.m */,
 				5D3F6E131E4E99A200073ACE /* PayPalPaymentService.h */,
@@ -149,6 +154,7 @@
 				5D3F6E181E4E99B400073ACE /* AmazonPaymentService.m in Sources */,
 				5D3F6E0F1E4E973200073ACE /* PaymentGateway.m in Sources */,
 				5D3F6E041E4E920900073ACE /* main.m in Sources */,
+				5D3F6E201E4EA71C00073ACE /* ApplePaymentService.m in Sources */,
 				5D3F6E0C1E4E94CF00073ACE /* UserInput.m in Sources */,
 				5D3F6E151E4E99A200073ACE /* PayPalPaymentService.m in Sources */,
 				5D3F6E121E4E999100073ACE /* StripePaymentService.m in Sources */,

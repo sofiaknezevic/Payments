@@ -12,7 +12,7 @@
 
 -(void)processPaymentAmount:(NSInteger)amount
 {
-    NSLog(@"\nYou have paid with PayPal!");
+    NSLog(@"PayPal processed amount $%li", (long)amount);
 }
 
 -(BOOL)canProcessPayment
